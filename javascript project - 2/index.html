@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Random Password Generator</title>
+</head>
+<body class="mainbg">
+    <section id="main">
+        <div class="pass-container">
+            <h2>Random Password Generator</h2>
+            <div class="box" id="showPass"></div>
+           <div class="one" id="onebox"><input type="radio" name="radio" id="checkStrong" class="check1"> <label for="checkStrong">Strong Password</label> </div> </a>
+           <div class="two" id="twobox"><input type="radio" name="radio" id="checkWeak"><label for="checkWeak">Weak Password</label></div> </a>
+           <div class="three" id="threebox"><input type="radio" name="radio" id="checkFunny"> <label for="checkFunny">Funny Password</label></div> </a>
+            <button id="generateButton" class="textInput">Generate</button>
+        </div>
+    </section>
+
+    <dialog id="dialog-box">
+        <p>Please Select Your Password Preference</p>
+        <button id="close">Close</button>
+    </dialog>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
